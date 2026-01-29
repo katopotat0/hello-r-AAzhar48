@@ -1,0 +1,11 @@
+Package: hello
+Title: Greeting user
+Version: 0.0.0.9000
+Authors@R: 
+    person("Aqsa", "Azhar", , "first.last@example.com", role = c("aut", "cre"))
+Description: This package has a function hello (), that greets the user.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
