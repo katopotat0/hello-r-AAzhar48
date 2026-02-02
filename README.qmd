@@ -1,0 +1,23 @@
+---
+title: "Hello"
+format: html
+editor: visual
+---
+
+How to use the Hello Package:
+
+-   Overview: This package contains the function hello. This function allows for the user to input a name. A greeting "Hello, (name entered)" will then be pasted to the screen.
+
+-   Installation: the command to install the package is: devtools::install_github('BIFX545-25/hello-r-AAzhar48'
+
+-   Examples:
+
+```{r}
+library(devtools)
+install_github('BIFX545-25/hello-r-AAzhar48')
+```
+
+```{r}
+library(hello)
+hello(Mr. Anderson)
+```
